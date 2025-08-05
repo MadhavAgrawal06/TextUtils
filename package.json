@@ -2,6 +2,7 @@
   "name": "textutils",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MadhavAgrawal06.github.io/TextUtils",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
