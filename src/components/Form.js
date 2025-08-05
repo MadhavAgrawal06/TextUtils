@@ -51,13 +51,13 @@ export default function Form(props) {
     <div className='container my-4' style={{color:props.mode==="dark"?"white":"black"}}>
       <h1>{props.heading}</h1>
       <div className="mb-3">
-      <textarea className="form-control" id="myBox" value={text} ref={textRef} onChange={handleChange} style={{color:props.mode==="dark"?"white":"black",backgroundColor:props.mode==="dark"?"#4e4a4a":"#e1e1e1"}} rows="10"></textarea>
+      <textarea className="form-control" id="myBox" value={text} ref={textRef} onChange={handleChange} style={{color:props.mode==="dark"?"white":"black",backgroundColor:props.mode==="dark"?"#4e4a4a":"#f2ebebff"}} rows="10"></textarea>
       </div>
-      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2`} onClick={handleUpperClick}>Convert to UpperCase</button>
-      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2`} onClick={handleLowerClick}>Convert to LowerCase</button>
-      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2`} onClick={handleListen}>Listen</button>
-      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2`} onClick={handleCopy}>Copy Text</button>
-      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2`} onClick={handleSpaces}>Clear Spaces</button>
+      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2 my-1`} onClick={handleUpperClick}>Convert to UpperCase</button>
+      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2 my-1`} onClick={handleLowerClick}>Convert to LowerCase</button>
+      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2 my-1`} onClick={handleListen}>Listen</button>
+      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2 my-1`} onClick={handleCopy}>Copy Text</button>
+      <button className={`btn btn-${props.mode==="dark"?"light":"dark"} mx-2 my-1`} onClick={handleSpaces}>Clear Spaces</button>
       <button className={`btn btn-danger mx-2`} onClick={handleClear}>Clear</button>
     </div>
 
@@ -70,7 +70,7 @@ export default function Form(props) {
         <p>{(wordCount*0.008).toFixed(4)} Minutes required to read</p>
         <br />
         <h2>Preview:</h2>
-        <pre style={{backgroundColor:props.mode==="dark"?"#4e4a4a":"#e1e1e1",padding:"1.2rem",border:"2px solid black",borderRadius:"1rem",  whiteSpace: "pre-wrap"}}>{text===""?"Enter Something to get Preview":text}</pre>
+        <pre style={{backgroundColor:props.mode==="dark"?"#4e4a4a":"#f5f5edff",padding:"1.2rem",border:"2px solid #e6d9d9",borderRadius:"1rem",  whiteSpace: "pre-wrap"}}>{text===""?"Enter Something to get Preview":text}</pre>
     </div>
     </>
   )
