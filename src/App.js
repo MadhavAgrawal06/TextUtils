@@ -5,7 +5,7 @@ import Form from "./components/Form.js"
 import About from "./components/About.js"
 import React,{useState} from 'react';
 import{
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 }from "react-router-dom";
