@@ -18,7 +18,7 @@ function App() {
   const changeMode=()=>{
     if(mode==="light"){
       setMode("dark");
-      document.body.style.backgroundColor="#343333";
+      document.body.style.backgroundColor="#2b2c35ff";
       handleAlert("success"," Changed to Dark Mode");
     }
     else{
@@ -46,8 +46,8 @@ function App() {
   <Alert alert={alert}/>
 
   <Routes> 
-     <Route exact path="/about" element={<About />}/>
-     <Route exact path="/" element={<Form heading="Enter Text Below to Analyze" mode={mode} handleAlert={handleAlert}/>}/>
+     <Route exact path="/about" element={<About mode={mode}/>}/>
+     <Route exact path="/" element={<Form heading="Paste or Type Your Text" mode={mode} handleAlert={handleAlert}/>}/>
   </Routes>
 
   </Router>
