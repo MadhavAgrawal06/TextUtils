@@ -47,9 +47,9 @@ git clone https://github.com/MadhavAgrawal06/TextUtils.git
 cd TextUtils
 npm install
 npm start
+```
 
-Then open your browser and navigate to:
-http://localhost:3000
+Then open your browser and navigate to:http://localhost:3000
 
 ---
 
@@ -57,11 +57,14 @@ http://localhost:3000
 
 This project is deployed using **Netlify**.
 
+---
+
 ### 🔧 Netlify Settings
 
 - **Build Command**: `npm run build`
 - **Publish Directory**: `build`
 
+---
 
 ## 📄 License
 
