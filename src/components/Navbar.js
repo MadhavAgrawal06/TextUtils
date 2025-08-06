@@ -5,8 +5,10 @@ export default function Navbar(props){
     return(
   <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode} border-bottom border-teal`}>
   <div className="container-fluid">
-    <img className="mx-1" src="/logo192.png" alt="logo" style={{height:"25px",width:"25px"}} />
-    <div className={`navbar-brand text-${props.mode === "light" ? "dark" : "light"}`}>{props.title}</div>
+  <Link className="navbar-brand d-flex align-items-center" to="/">
+    <img src="/logo192.png" alt="logo" style={{ height: "25px", width: "25px" }} className="me-2"/>
+    <span className={`text-${props.mode === "light" ? "dark" : "light"}`}>{props.title}</span>
+  </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
