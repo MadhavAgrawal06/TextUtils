@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 📝 TextUtils - React Text Utility App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**TextUtils** is a fast, modern, and responsive web app built with React that allows users to analyze and manipulate text in multiple useful ways — right from their browser.
 
-## Available Scripts
+🌐 **Live Demo**: [https://textutils-tool-react.netlify.app/](https://textutils-tool-react.netlify.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](/public//Screenshot.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔠 Convert text to:
+  - **UPPERCASE**
+  - **lowercase**
+- 🧹 **Remove extra spaces**
+- 📋 **Copy text** to clipboard
+- 🧠 **Word** and  **paragraph** count
+- ⏱️ **Estimated reading time**
+- 🔊 **Listen to text** using Text-to-Speech
+- 👁️ **Live preview** of the text below the editor
+- ⚙️ **Buttons are disabled** when the input is empty
+- 🌗 Toggle between **Light** and **Dark** mode
+- 📱 Fully **responsive** for mobile, tablet, and desktop
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React.js](https://reactjs.org/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [React Router DOM](https://reactrouter.com/)
+- [Netlify](https://www.netlify.com/) for deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this project locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/MadhavAgrawal06/TextUtils.git
+cd TextUtils
+npm install
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Then open your browser and navigate to:
+http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🌐 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is deployed using **Netlify**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🔧 Netlify Settings
 
-### Code Splitting
+- **Build Command**: `npm run build`
+- **Publish Directory**: `build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You are free to use, modify, and distribute this project for personal or commercial use.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
