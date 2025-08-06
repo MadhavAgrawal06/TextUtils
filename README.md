@@ -59,7 +59,7 @@ This project is deployed using **Netlify**.
 
 ---
 
-### 🔧 Netlify Settings
+## 🔧 Netlify Settings
 
 - **Build Command**: `npm run build`
 - **Publish Directory**: `build`
