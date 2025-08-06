@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar(props){
     return(
-  <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode} border-bottom border-teal`}>
+  <nav className={`navbar sticky-top navbar-expand-lg navbar-${props.mode} bg-${props.mode} border-bottom border-teal`} >
   <div className="container-fluid">
   <Link className="navbar-brand d-flex align-items-center" to="/">
     <img src="/logo192.png" alt="logo" style={{ height: "25px", width: "25px" }} className="me-2"/>
